@@ -1,0 +1,21 @@
+{
+  "h1_basic": {
+    "mean_reward": -28.06666666666659,
+    "std_reward": 56.13333333333318,
+    "mean_time": 30.404747581481935,
+    "params": 8898
+  },
+  "h3_multiagent": {
+    "mean_reward": 0.0,
+    "std_reward": 0.0,
+    "mean_time": 47.24315352439881,
+    "params": 4612,
+    "num_agents": 2
+  },
+  "comparison": {
+    "t_statistic": -1.0,
+    "p_value": 0.373900966300059,
+    "param_reduction_pct": 48.168127669139125,
+    "time_speedup_pct": -55.38084438225146
+  }
+}

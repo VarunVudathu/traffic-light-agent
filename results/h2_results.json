@@ -1,0 +1,9 @@
+{
+  "experiment_1": {
+    "description": "H2-MaxPressure vs H1-Basic on low-variance",
+    "statistics": {
+      "t_statistic": -13.745159841487798,
+      "p_value": 2.4033400790284735e-07,
+      "cohens_d": -6.426405038098581,
+      "effect_size": "large",
+      "significant": 

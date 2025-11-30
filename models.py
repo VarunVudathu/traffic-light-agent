@@ -14,30 +14,37 @@ sys.path.insert(0, str(Path(__file__).resolve().parent / "CityFlow" / "build"))
 import cityflow
 
 class CityFlowEnv:
-    def __init__(self, config_path, frame_skip=5):
+    def __init__(self, config_path, frame_skip=5, max_steps=1000):
         self.eng = cityflow.Engine(config_path, thread_num=1)
         self.intersection_id = self.eng.get_intersection_ids()[0]
         self.action_space = list(range(len(self.eng.get_intersection_phase(self.intersection_id))))
         self.frame_skip = frame_skip
-        self.max_time = 3600
+        self.max_steps = max_steps
+        self.current_step = 0
         self.reset()
 
     def reset(self):
         self.eng.reset()
+        self.current_step = 0
         return self.get_state()
 
     def step(self, action):
         self.eng.set_tl_phase(self.intersection_id, action)
         for _ in range(self.frame_skip):
             self.eng.next_step()
+        self.current_step += 1
         waiting_counts = list(self.eng.get_lane_waiting_vehicle_count().values())
         reward = -np.mean(waiting_counts) if waiting_counts else 0.0
-        done = self.eng.get_current_time() >= self.max_time
+        done = self.current_step >= self.max_steps
         return self.get_state(), reward, done, {}
 
     def get_state(self):
         lane_counts = list(self.eng.get_lane_waiting_vehicle_count().values())
-        max_count = max(lane_counts) if lane_counts else 1
+        if not lane_counts:
+            return np.array([0.0], dtype=np.float32)
+        max_count = max(lane_counts)
+        if max_count == 0:
+            return np.array(lane_counts, dtype=np.float32)
         return np.array(lane_counts, dtype=np.float32) / max_count
 
 class DQN(nn.Module):
@@ -105,7 +112,6 @@ class SingleAgentBaseline:
                         action = q_vals.argmax().item()
 
                 next_state, reward, done, _ = self.env.step(action)
-                print(next_state)
                 self.buffer.add((state, action, reward, next_state, done))
                 state = next_state
                 total += reward

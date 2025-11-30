@@ -1,0 +1,97 @@
+======================================================================
+H1 vs H3 COMPARISON ON 2-INTERSECTION CORRIDOR
+======================================================================
+
+Running H1-Basic (5 runs, 50 episodes each)...
+  Run with seed=42...[H1-Basic] Ep 10/50: Reward=-5.33, Avg(10)=-4.37, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-4.33, Avg(10)=-3.47, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-4.33, Avg(10)=-2.30, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-1.33, Avg(10)=-1.77, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-5.00, Avg(10)=-1.50, ε=0.740
+ Eval=0.00, Time=30.3s, Params=8898
+  Run with seed=43...[H1-Basic] Ep 10/50: Reward=-5.67, Avg(10)=-4.40, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-0.67, Avg(10)=-2.53, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-2.33, Avg(10)=-1.53, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-1.67, Avg(10)=-2.33, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-0.33, Avg(10)=-0.80, ε=0.740
+ Eval=0.00, Time=30.3s, Params=8898
+  Run with seed=44...[H1-Basic] Ep 10/50: Reward=-3.33, Avg(10)=-2.87, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-3.67, Avg(10)=-1.87, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-0.33, Avg(10)=-0.93, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-2.00, Avg(10)=-1.43, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-1.33, Avg(10)=-1.87, ε=0.740
+ Eval=0.00, Time=30.5s, Params=8898
+  Run with seed=45...[H1-Basic] Ep 10/50: Reward=-5.00, Avg(10)=-5.10, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-1.33, Avg(10)=-3.97, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-1.00, Avg(10)=-1.23, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-1.67, Avg(10)=-1.73, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-2.33, Avg(10)=-1.00, ε=0.740
+ Eval=-140.33, Time=30.7s, Params=8898
+  Run with seed=46...[H1-Basic] Ep 10/50: Reward=-0.33, Avg(10)=-3.40, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-1.67, Avg(10)=-2.63, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-3.00, Avg(10)=-2.03, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-3.33, Avg(10)=-2.23, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-0.67, Avg(10)=-1.77, ε=0.740
+ Eval=0.00, Time=30.2s, Params=8898
+
+Running H3-MultiAgent (5 runs, 50 episodes each)...
+  Run with seed=42...[H3-MultiAgent] Ep 10/50: Reward=-4.50, Avg(10)=-20.65, ε=0.905, Agents=2
+[H3-MultiAgent] Ep 20/50: Reward=-5.00, Avg(10)=-12.20, ε=0.860, Agents=2
+[H3-MultiAgent] Ep 30/50: Reward=-9.50, Avg(10)=-9.45, ε=0.818, Agents=2
+[H3-MultiAgent] Ep 40/50: Reward=-7.00, Avg(10)=-4.15, ε=0.778, Agents=2
+[H3-MultiAgent] Ep 50/50: Reward=-5.00, Avg(10)=-4.65, ε=0.740, Agents=2
+ Eval=0.00, Time=47.4s, Params=4612 (2 agents)
+  Run with seed=43...[H3-MultiAgent] Ep 10/50: Reward=-18.00, Avg(10)=-17.45, ε=0.905, Agents=2
+[H3-MultiAgent] Ep 20/50: Reward=-16.00, Avg(10)=-16.00, ε=0.860, Agents=2
+[H3-MultiAgent] Ep 30/50: Reward=-20.00, Avg(10)=-11.45, ε=0.818, Agents=2
+[H3-MultiAgent] Ep 40/50: Reward=-12.00, Avg(10)=-7.95, ε=0.778, Agents=2
+[H3-MultiAgent] Ep 50/50: Reward=-3.00, Avg(10)=-5.10, ε=0.740, Agents=2
+ Eval=0.00, Time=47.4s, Params=4612 (2 agents)
+  Run with seed=44...[H3-MultiAgent] Ep 10/50: Reward=-39.50, Avg(10)=-21.10, ε=0.905, Agents=2
+[H3-MultiAgent] Ep 20/50: Reward=-6.00, Avg(10)=-11.75, ε=0.860, Agents=2
+[H3-MultiAgent] Ep 30/50: Reward=-0.50, Avg(10)=-9.25, ε=0.818, Agents=2
+[H3-MultiAgent] Ep 40/50: Reward=-5.50, Avg(10)=-7.10, ε=0.778, Agents=2
+[H3-MultiAgent] Ep 50/50: Reward=-2.00, Avg(10)=-5.00, ε=0.740, Agents=2
+ Eval=0.00, Time=48.0s, Params=4612 (2 agents)
+  Run with seed=45...[H3-MultiAgent] Ep 10/50: Reward=-10.00, Avg(10)=-15.65, ε=0.905, Agents=2
+[H3-MultiAgent] Ep 20/50: Reward=-10.00, Avg(10)=-11.30, ε=0.860, Agents=2
+[H3-MultiAgent] Ep 30/50: Reward=-4.50, Avg(10)=-9.85, ε=0.818, Agents=2
+[H3-MultiAgent] Ep 40/50: Reward=-4.00, Avg(10)=-6.65, ε=0.778, Agents=2
+[H3-MultiAgent] Ep 50/50: Reward=-2.50, Avg(10)=-4.20, ε=0.740, Agents=2
+ Eval=0.00, Time=47.2s, Params=4612 (2 agents)
+  Run with seed=46...[H3-MultiAgent] Ep 10/50: Reward=-6.50, Avg(10)=-18.95, ε=0.905, Agents=2
+[H3-MultiAgent] Ep 20/50: Reward=-13.50, Avg(10)=-13.65, ε=0.860, Agents=2
+[H3-MultiAgent] Ep 30/50: Reward=-7.00, Avg(10)=-9.10, ε=0.818, Agents=2
+[H3-MultiAgent] Ep 40/50: Reward=-5.50, Avg(10)=-10.55, ε=0.778, Agents=2
+[H3-MultiAgent] Ep 50/50: Reward=-10.50, Avg(10)=-6.40, ε=0.740, Agents=2
+ Eval=0.00, Time=46.2s, Params=4612 (2 agents)
+
+======================================================================
+RESULTS
+======================================================================
+
+H1-Basic (Single Agent for 2 intersections):
+  Evaluation Reward: -28.07 ± 56.13
+  Training Time: 30.4s
+  Parameters: 8,898
+
+H3-MultiAgent (2 Independent Agents):
+  Evaluation Reward: 0.00 ± 0.00
+  Training Time: 47.2s
+  Parameters: 4,612
+
+Scalability Comparison:
+  Parameter Reduction: 48.2% (1.93x fewer in H3)
+  Training Speedup: -55.4% (0.64x faster in H3)
+
+Statistical Test (Paired t-test):
+  t-statistic: -1.000
+  p-value: 0.3739
+  Result: No significant difference (p >= 0.05)
+
+✅ Results saved to /Users/varun/Documents/School/CS4644/project/traffic-light-agent/results/corridor_comparison.json
+✅ Plot saved to /Users/varun/Documents/School/CS4644/project/traffic-light-agent/results/plots/corridor_comparison.png
+
+======================================================================
+CORRIDOR COMPARISON COMPLETE
+======================================================================

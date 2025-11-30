@@ -1,0 +1,10 @@
+{
+	"interval": 1.0,
+	"seed": 42,
+	"dir": "data/",
+	"roadnetFile": "roadnet-adv.json",
+	"flowFile": "flow-light.json",
+	"rlTrafficLight": true,
+	"laneChange": false,
+	"saveReplay": false
+}

@@ -1,0 +1,382 @@
+======================================================================
+H3 HYPOTHESIS TESTING - MULTI-AGENT COORDINATION
+======================================================================
+
+======================================================================
+EXPERIMENT 1: H3-MultiAgent vs H1-Basic (Low Variance)
+Hypothesis: Multi-agent should scale better with independent learning
+======================================================================
+
+Running: h3_multiagent on low_variance
+======================================================================
+Run 1/10 (seed=42)...
+Run with seed=42...
+[H3-MultiAgent] Ep 10/50: Reward=-1005.13, Avg(10)=-1093.59, ε=0.905, Agents=1
+[H3-MultiAgent] Ep 20/50: Reward=-1068.41, Avg(10)=-1127.93, ε=0.860, Agents=1
+[H3-MultiAgent] Ep 30/50: Reward=-1060.00, Avg(10)=-1016.84, ε=0.818, Agents=1
+[H3-MultiAgent] Ep 40/50: Reward=-1027.12, Avg(10)=-997.39, ε=0.778, Agents=1
+[H3-MultiAgent] Ep 50/50: Reward=-706.54, Avg(10)=-964.80, ε=0.740, Agents=1
+  Mean reward: -5.55, Time: 31.8s, Params: 5992
+Run 2/10 (seed=43)...
+Run with seed=43...
+[H3-MultiAgent] Ep 10/50: Reward=-1124.02, Avg(10)=-1262.52, ε=0.905, Agents=1
+[H3-MultiAgent] Ep 20/50: Reward=-1004.46, Avg(10)=-1153.51, ε=0.860, Agents=1
+[H3-MultiAgent] Ep 30/50: Reward=-1275.63, Avg(10)=-1241.67, ε=0.818, Agents=1
+[H3-MultiAgent] Ep 40/50: Reward=-1106.39, Avg(10)=-1259.14, ε=0.778, Agents=1
+[H3-MultiAgent] Ep 50/50: Reward=-1362.14, Avg(10)=-1163.33, ε=0.740, Agents=1
+  Mean reward: -5.68, Time: 31.3s, Params: 5992
+Run 3/10 (seed=44)...
+Run with seed=44...
+[H3-MultiAgent] Ep 10/50: Reward=-1201.25, Avg(10)=-1090.86, ε=0.905, Agents=1
+[H3-MultiAgent] Ep 20/50: Reward=-869.14, Avg(10)=-1194.13, ε=0.860, Agents=1
+[H3-MultiAgent] Ep 30/50: Reward=-1189.34, Avg(10)=-1021.76, ε=0.818, Agents=1
+[H3-MultiAgent] Ep 40/50: Reward=-1118.07, Avg(10)=-1047.50, ε=0.778, Agents=1
+[H3-MultiAgent] Ep 50/50: Reward=-700.68, Avg(10)=-950.38, ε=0.740, Agents=1
+  Mean reward: -8.15, Time: 31.3s, Params: 5992
+Run 4/10 (seed=45)...
+Run with seed=45...
+[H3-MultiAgent] Ep 10/50: Reward=-933.16, Avg(10)=-1225.69, ε=0.905, Agents=1
+[H3-MultiAgent] Ep 20/50: Reward=-1104.43, Avg(10)=-1079.00, ε=0.860, Agents=1
+[H3-MultiAgent] Ep 30/50: Reward=-743.80, Avg(10)=-986.93, ε=0.818, Agents=1
+[H3-MultiAgent] Ep 40/50: Reward=-1100.00, Avg(10)=-1127.49, ε=0.778, Agents=1
+[H3-MultiAgent] Ep 50/50: Reward=-1522.68, Avg(10)=-1116.42, ε=0.740, Agents=1
+  Mean reward: -5.88, Time: 31.6s, Params: 5992
+Run 5/10 (seed=46)...
+Run with seed=46...
+[H3-MultiAgent] Ep 10/50: Reward=-1050.18, Avg(10)=-1194.66, ε=0.905, Agents=1
+[H3-MultiAgent] Ep 20/50: Reward=-1175.07, Avg(10)=-1066.52, ε=0.860, Agents=1
+[H3-MultiAgent] Ep 30/50: Reward=-1023.38, Avg(10)=-999.89, ε=0.818, Agents=1
+[H3-MultiAgent] Ep 40/50: Reward=-908.52, Avg(10)=-938.34, ε=0.778, Agents=1
+[H3-MultiAgent] Ep 50/50: Reward=-1383.87, Avg(10)=-1117.56, ε=0.740, Agents=1
+  Mean reward: -6.16, Time: 31.2s, Params: 5992
+Run 6/10 (seed=47)...
+Run with seed=47...
+[H3-MultiAgent] Ep 10/50: Reward=-1335.41, Avg(10)=-1228.82, ε=0.905, Agents=1
+[H3-MultiAgent] Ep 20/50: Reward=-1619.29, Avg(10)=-1167.22, ε=0.860, Agents=1
+[H3-MultiAgent] Ep 30/50: Reward=-904.04, Avg(10)=-1063.32, ε=0.818, Agents=1
+[H3-MultiAgent] Ep 40/50: Reward=-1116.79, Avg(10)=-1132.50, ε=0.778, Agents=1
+[H3-MultiAgent] Ep 50/50: Reward=-849.20, Avg(10)=-1194.20, ε=0.740, Agents=1
+  Mean reward: -7.52, Time: 31.3s, Params: 5992
+Run 7/10 (seed=48)...
+Run with seed=48...
+[H3-MultiAgent] Ep 10/50: Reward=-1353.18, Avg(10)=-1215.17, ε=0.905, Agents=1
+[H3-MultiAgent] Ep 20/50: Reward=-1015.66, Avg(10)=-1162.77, ε=0.860, Agents=1
+[H3-MultiAgent] Ep 30/50: Reward=-1564.71, Avg(10)=-1323.62, ε=0.818, Agents=1
+[H3-MultiAgent] Ep 40/50: Reward=-921.52, Avg(10)=-1098.93, ε=0.778, Agents=1
+[H3-MultiAgent] Ep 50/50: Reward=-1394.27, Avg(10)=-1324.41, ε=0.740, Agents=1
+  Mean reward: -7.89, Time: 31.2s, Params: 5992
+Run 8/10 (seed=49)...
+Run with seed=49...
+[H3-MultiAgent] Ep 10/50: Reward=-1117.45, Avg(10)=-1165.96, ε=0.905, Agents=1
+[H3-MultiAgent] Ep 20/50: Reward=-1367.73, Avg(10)=-1068.15, ε=0.860, Agents=1
+[H3-MultiAgent] Ep 30/50: Reward=-892.71, Avg(10)=-1161.64, ε=0.818, Agents=1
+[H3-MultiAgent] Ep 40/50: Reward=-846.14, Avg(10)=-983.26, ε=0.778, Agents=1
+[H3-MultiAgent] Ep 50/50: Reward=-827.91, Avg(10)=-1065.10, ε=0.740, Agents=1
+  Mean reward: -5.47, Time: 31.2s, Params: 5992
+Run 9/10 (seed=50)...
+Run with seed=50...
+[H3-MultiAgent] Ep 10/50: Reward=-1265.43, Avg(10)=-1160.74, ε=0.905, Agents=1
+[H3-MultiAgent] Ep 20/50: Reward=-1100.66, Avg(10)=-1124.96, ε=0.860, Agents=1
+[H3-MultiAgent] Ep 30/50: Reward=-1154.46, Avg(10)=-1165.20, ε=0.818, Agents=1
+[H3-MultiAgent] Ep 40/50: Reward=-1102.38, Avg(10)=-1136.32, ε=0.778, Agents=1
+[H3-MultiAgent] Ep 50/50: Reward=-1117.89, Avg(10)=-1026.83, ε=0.740, Agents=1
+  Mean reward: -7.56, Time: 31.1s, Params: 5992
+Run 10/10 (seed=51)...
+Run with seed=51...
+[H3-MultiAgent] Ep 10/50: Reward=-1065.88, Avg(10)=-1368.36, ε=0.905, Agents=1
+[H3-MultiAgent] Ep 20/50: Reward=-1254.70, Avg(10)=-1178.22, ε=0.860, Agents=1
+[H3-MultiAgent] Ep 30/50: Reward=-1240.05, Avg(10)=-1263.23, ε=0.818, Agents=1
+[H3-MultiAgent] Ep 40/50: Reward=-872.11, Avg(10)=-1225.23, ε=0.778, Agents=1
+[H3-MultiAgent] Ep 50/50: Reward=-1381.75, Avg(10)=-1338.19, ε=0.740, Agents=1
+  Mean reward: -6.88, Time: 31.3s, Params: 5992
+
+Running: h1_basic on low_variance
+======================================================================
+Run 1/10 (seed=42)...
+Run with seed=42...
+[H1-Basic] Ep 10/50: Reward=-1094.11, Avg(10)=-1165.51, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-1437.46, Avg(10)=-1160.69, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-1276.77, Avg(10)=-1117.79, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-1100.09, Avg(10)=-1094.19, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-950.46, Avg(10)=-980.84, ε=0.740
+  Mean reward: -7.54, Time: 36.4s, Params: 16072
+Run 2/10 (seed=43)...
+Run with seed=43...
+[H1-Basic] Ep 10/50: Reward=-1348.96, Avg(10)=-1267.46, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-1235.95, Avg(10)=-1158.65, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-1019.23, Avg(10)=-1137.95, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-1180.87, Avg(10)=-1167.47, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-728.86, Avg(10)=-972.92, ε=0.740
+  Mean reward: -2.77, Time: 36.3s, Params: 16072
+Run 3/10 (seed=44)...
+Run with seed=44...
+[H1-Basic] Ep 10/50: Reward=-1374.66, Avg(10)=-1264.42, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-1002.21, Avg(10)=-1123.68, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-1333.96, Avg(10)=-1030.31, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-1012.21, Avg(10)=-1079.53, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-1340.55, Avg(10)=-1096.89, ε=0.740
+  Mean reward: -6.65, Time: 35.3s, Params: 16072
+Run 4/10 (seed=45)...
+Run with seed=45...
+[H1-Basic] Ep 10/50: Reward=-1307.54, Avg(10)=-1185.28, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-940.23, Avg(10)=-1147.90, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-1015.98, Avg(10)=-1076.08, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-1590.68, Avg(10)=-1301.75, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-956.12, Avg(10)=-1012.17, ε=0.740
+  Mean reward: -4.62, Time: 36.4s, Params: 16072
+Run 5/10 (seed=46)...
+Run with seed=46...
+[H1-Basic] Ep 10/50: Reward=-1052.04, Avg(10)=-1241.90, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-952.64, Avg(10)=-1041.81, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-1020.11, Avg(10)=-1094.95, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-970.93, Avg(10)=-1081.67, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-867.34, Avg(10)=-1062.64, ε=0.740
+  Mean reward: -7.03, Time: 37.6s, Params: 16072
+Run 6/10 (seed=47)...
+Run with seed=47...
+[H1-Basic] Ep 10/50: Reward=-1552.20, Avg(10)=-1516.66, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-1092.52, Avg(10)=-1136.39, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-1248.38, Avg(10)=-1232.28, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-1025.09, Avg(10)=-1057.10, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-1095.79, Avg(10)=-1164.53, ε=0.740
+  Mean reward: -6.09, Time: 36.5s, Params: 16072
+Run 7/10 (seed=48)...
+Run with seed=48...
+[H1-Basic] Ep 10/50: Reward=-972.32, Avg(10)=-1233.11, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-1226.11, Avg(10)=-1145.47, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-1033.93, Avg(10)=-1050.10, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-1170.38, Avg(10)=-1008.30, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-793.75, Avg(10)=-1138.60, ε=0.740
+  Mean reward: -5.33, Time: 36.2s, Params: 16072
+Run 8/10 (seed=49)...
+Run with seed=49...
+[H1-Basic] Ep 10/50: Reward=-914.07, Avg(10)=-1181.40, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-777.00, Avg(10)=-991.96, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-972.32, Avg(10)=-1139.85, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-831.34, Avg(10)=-979.61, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-889.29, Avg(10)=-1002.12, ε=0.740
+  Mean reward: -4.03, Time: 36.2s, Params: 16072
+Run 9/10 (seed=50)...
+Run with seed=50...
+[H1-Basic] Ep 10/50: Reward=-1343.77, Avg(10)=-1280.85, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-983.27, Avg(10)=-1121.32, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-1039.23, Avg(10)=-1045.60, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-1219.68, Avg(10)=-1113.68, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-776.21, Avg(10)=-990.39, ε=0.740
+  Mean reward: -5.57, Time: 36.2s, Params: 16072
+Run 10/10 (seed=51)...
+Run with seed=51...
+[H1-Basic] Ep 10/50: Reward=-1071.25, Avg(10)=-1298.89, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-1055.00, Avg(10)=-1163.05, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-1752.73, Avg(10)=-1405.54, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-1605.07, Avg(10)=-1356.24, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-1195.86, Avg(10)=-1226.07, ε=0.740
+  Mean reward: -7.07, Time: 36.3s, Params: 16072
+
+======================================================================
+EXPERIMENT 2: H3-MultiAgent vs H1-Basic (High Variance)
+Hypothesis: Multi-agent should handle complex scenarios better
+======================================================================
+
+Running: h3_multiagent on high_variance
+======================================================================
+Run 1/10 (seed=42)...
+Run with seed=42...
+[H3-MultiAgent] Ep 10/50: Reward=-3592.75, Avg(10)=-3729.43, ε=0.905, Agents=1
+[H3-MultiAgent] Ep 20/50: Reward=-3523.88, Avg(10)=-3783.16, ε=0.860, Agents=1
+[H3-MultiAgent] Ep 30/50: Reward=-3746.50, Avg(10)=-3795.34, ε=0.818, Agents=1
+[H3-MultiAgent] Ep 40/50: Reward=-3558.63, Avg(10)=-3735.92, ε=0.778, Agents=1
+[H3-MultiAgent] Ep 50/50: Reward=-3670.75, Avg(10)=-3752.34, ε=0.740, Agents=1
+  Mean reward: -6.35, Time: 32.4s, Params: 5992
+Run 2/10 (seed=43)...
+Run with seed=43...
+[H3-MultiAgent] Ep 10/50: Reward=-3942.14, Avg(10)=-3856.61, ε=0.905, Agents=1
+[H3-MultiAgent] Ep 20/50: Reward=-3789.27, Avg(10)=-3739.44, ε=0.860, Agents=1
+[H3-MultiAgent] Ep 30/50: Reward=-3966.95, Avg(10)=-3754.64, ε=0.818, Agents=1
+[H3-MultiAgent] Ep 40/50: Reward=-4104.93, Avg(10)=-3834.25, ε=0.778, Agents=1
+[H3-MultiAgent] Ep 50/50: Reward=-3682.71, Avg(10)=-3819.51, ε=0.740, Agents=1
+  Mean reward: -7.66, Time: 33.8s, Params: 5992
+Run 3/10 (seed=44)...
+Run with seed=44...
+[H3-MultiAgent] Ep 10/50: Reward=-3794.82, Avg(10)=-3816.22, ε=0.905, Agents=1
+[H3-MultiAgent] Ep 20/50: Reward=-3933.89, Avg(10)=-3781.56, ε=0.860, Agents=1
+[H3-MultiAgent] Ep 30/50: Reward=-3943.82, Avg(10)=-3806.52, ε=0.818, Agents=1
+[H3-MultiAgent] Ep 40/50: Reward=-3923.16, Avg(10)=-3828.65, ε=0.778, Agents=1
+[H3-MultiAgent] Ep 50/50: Reward=-3817.23, Avg(10)=-3781.81, ε=0.740, Agents=1
+  Mean reward: -6.87, Time: 32.6s, Params: 5992
+Run 4/10 (seed=45)...
+Run with seed=45...
+[H3-MultiAgent] Ep 10/50: Reward=-3612.02, Avg(10)=-3730.48, ε=0.905, Agents=1
+[H3-MultiAgent] Ep 20/50: Reward=-3966.25, Avg(10)=-3873.39, ε=0.860, Agents=1
+[H3-MultiAgent] Ep 30/50: Reward=-3895.71, Avg(10)=-3844.81, ε=0.818, Agents=1
+[H3-MultiAgent] Ep 40/50: Reward=-3871.79, Avg(10)=-3820.04, ε=0.778, Agents=1
+[H3-MultiAgent] Ep 50/50: Reward=-4095.89, Avg(10)=-3888.19, ε=0.740, Agents=1
+  Mean reward: -7.05, Time: 31.8s, Params: 5992
+Run 5/10 (seed=46)...
+Run with seed=46...
+[H3-MultiAgent] Ep 10/50: Reward=-3782.70, Avg(10)=-3735.90, ε=0.905, Agents=1
+[H3-MultiAgent] Ep 20/50: Reward=-4187.14, Avg(10)=-3834.11, ε=0.860, Agents=1
+[H3-MultiAgent] Ep 30/50: Reward=-4066.30, Avg(10)=-3891.48, ε=0.818, Agents=1
+[H3-MultiAgent] Ep 40/50: Reward=-4217.39, Avg(10)=-3904.44, ε=0.778, Agents=1
+[H3-MultiAgent] Ep 50/50: Reward=-3961.29, Avg(10)=-3984.65, ε=0.740, Agents=1
+  Mean reward: -7.27, Time: 32.2s, Params: 5992
+Run 6/10 (seed=47)...
+Run with seed=47...
+[H3-MultiAgent] Ep 10/50: Reward=-3654.46, Avg(10)=-3783.32, ε=0.905, Agents=1
+[H3-MultiAgent] Ep 20/50: Reward=-4135.14, Avg(10)=-3823.86, ε=0.860, Agents=1
+[H3-MultiAgent] Ep 30/50: Reward=-3819.05, Avg(10)=-3760.99, ε=0.818, Agents=1
+[H3-MultiAgent] Ep 40/50: Reward=-3914.89, Avg(10)=-3890.02, ε=0.778, Agents=1
+[H3-MultiAgent] Ep 50/50: Reward=-3826.04, Avg(10)=-3836.85, ε=0.740, Agents=1
+  Mean reward: -7.54, Time: 31.7s, Params: 5992
+Run 7/10 (seed=48)...
+Run with seed=48...
+[H3-MultiAgent] Ep 10/50: Reward=-3989.37, Avg(10)=-3734.74, ε=0.905, Agents=1
+[H3-MultiAgent] Ep 20/50: Reward=-3447.68, Avg(10)=-3780.54, ε=0.860, Agents=1
+[H3-MultiAgent] Ep 30/50: Reward=-3655.52, Avg(10)=-3798.55, ε=0.818, Agents=1
+[H3-MultiAgent] Ep 40/50: Reward=-3910.05, Avg(10)=-3881.71, ε=0.778, Agents=1
+[H3-MultiAgent] Ep 50/50: Reward=-3965.80, Avg(10)=-3827.00, ε=0.740, Agents=1
+  Mean reward: -6.92, Time: 31.7s, Params: 5992
+Run 8/10 (seed=49)...
+Run with seed=49...
+[H3-MultiAgent] Ep 10/50: Reward=-3830.00, Avg(10)=-3692.69, ε=0.905, Agents=1
+[H3-MultiAgent] Ep 20/50: Reward=-3507.05, Avg(10)=-3837.55, ε=0.860, Agents=1
+[H3-MultiAgent] Ep 30/50: Reward=-4023.27, Avg(10)=-3889.18, ε=0.818, Agents=1
+[H3-MultiAgent] Ep 40/50: Reward=-3684.07, Avg(10)=-3822.43, ε=0.778, Agents=1
+[H3-MultiAgent] Ep 50/50: Reward=-3949.09, Avg(10)=-3957.10, ε=0.740, Agents=1
+  Mean reward: -7.33, Time: 31.8s, Params: 5992
+Run 9/10 (seed=50)...
+Run with seed=50...
+[H3-MultiAgent] Ep 10/50: Reward=-3868.52, Avg(10)=-3707.38, ε=0.905, Agents=1
+[H3-MultiAgent] Ep 20/50: Reward=-4057.70, Avg(10)=-3783.40, ε=0.860, Agents=1
+[H3-MultiAgent] Ep 30/50: Reward=-4029.36, Avg(10)=-3836.39, ε=0.818, Agents=1
+[H3-MultiAgent] Ep 40/50: Reward=-4065.66, Avg(10)=-3804.50, ε=0.778, Agents=1
+[H3-MultiAgent] Ep 50/50: Reward=-3968.48, Avg(10)=-3879.92, ε=0.740, Agents=1
+  Mean reward: -6.83, Time: 31.9s, Params: 5992
+Run 10/10 (seed=51)...
+Run with seed=51...
+[H3-MultiAgent] Ep 10/50: Reward=-3277.89, Avg(10)=-3707.41, ε=0.905, Agents=1
+[H3-MultiAgent] Ep 20/50: Reward=-3758.55, Avg(10)=-3851.13, ε=0.860, Agents=1
+[H3-MultiAgent] Ep 30/50: Reward=-3714.48, Avg(10)=-3815.09, ε=0.818, Agents=1
+[H3-MultiAgent] Ep 40/50: Reward=-3749.02, Avg(10)=-3795.26, ε=0.778, Agents=1
+[H3-MultiAgent] Ep 50/50: Reward=-3905.09, Avg(10)=-3897.84, ε=0.740, Agents=1
+  Mean reward: -8.69, Time: 32.4s, Params: 5992
+
+Running: h1_basic on high_variance
+======================================================================
+Run 1/10 (seed=42)...
+Run with seed=42...
+[H1-Basic] Ep 10/50: Reward=-4090.98, Avg(10)=-3839.78, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-4012.34, Avg(10)=-3762.41, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-3901.62, Avg(10)=-3701.44, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-3926.32, Avg(10)=-3842.52, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-3940.63, Avg(10)=-3727.20, ε=0.740
+  Mean reward: -3.97, Time: 36.8s, Params: 16072
+Run 2/10 (seed=43)...
+Run with seed=43...
+[H1-Basic] Ep 10/50: Reward=-3853.04, Avg(10)=-3749.21, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-3858.38, Avg(10)=-3781.05, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-3889.18, Avg(10)=-3763.83, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-3443.61, Avg(10)=-3852.00, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-3930.36, Avg(10)=-3816.01, ε=0.740
+  Mean reward: -7.66, Time: 36.6s, Params: 16072
+Run 3/10 (seed=44)...
+Run with seed=44...
+[H1-Basic] Ep 10/50: Reward=-3514.50, Avg(10)=-3800.69, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-3829.00, Avg(10)=-3812.41, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-3532.80, Avg(10)=-3716.53, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-3776.23, Avg(10)=-3789.18, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-3796.52, Avg(10)=-3754.74, ε=0.740
+  Mean reward: -5.59, Time: 36.4s, Params: 16072
+Run 4/10 (seed=45)...
+Run with seed=45...
+[H1-Basic] Ep 10/50: Reward=-3697.48, Avg(10)=-3751.46, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-3853.04, Avg(10)=-3809.94, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-3871.86, Avg(10)=-3771.30, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-4218.48, Avg(10)=-3962.55, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-3811.93, Avg(10)=-3920.04, ε=0.740
+  Mean reward: -8.07, Time: 36.0s, Params: 16072
+Run 5/10 (seed=46)...
+Run with seed=46...
+[H1-Basic] Ep 10/50: Reward=-3748.18, Avg(10)=-3726.67, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-3605.43, Avg(10)=-3781.97, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-4070.66, Avg(10)=-3915.63, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-3623.62, Avg(10)=-3716.15, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-3997.05, Avg(10)=-3882.40, ε=0.740
+  Mean reward: -8.39, Time: 36.4s, Params: 16072
+Run 6/10 (seed=47)...
+Run with seed=47...
+[H1-Basic] Ep 10/50: Reward=-3891.37, Avg(10)=-3845.09, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-3723.91, Avg(10)=-3824.69, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-3677.93, Avg(10)=-3619.30, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-3788.32, Avg(10)=-3802.95, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-3697.79, Avg(10)=-3724.02, ε=0.740
+  Mean reward: -7.67, Time: 36.4s, Params: 16072
+Run 7/10 (seed=48)...
+Run with seed=48...
+[H1-Basic] Ep 10/50: Reward=-3778.63, Avg(10)=-3795.27, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-3512.32, Avg(10)=-3775.97, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-3945.34, Avg(10)=-3826.04, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-3957.38, Avg(10)=-3872.10, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-3658.63, Avg(10)=-3817.34, ε=0.740
+  Mean reward: -5.78, Time: 36.2s, Params: 16072
+Run 8/10 (seed=49)...
+Run with seed=49...
+[H1-Basic] Ep 10/50: Reward=-3820.86, Avg(10)=-3744.58, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-3434.20, Avg(10)=-3665.29, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-3865.46, Avg(10)=-3799.94, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-3925.66, Avg(10)=-3846.56, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-3464.84, Avg(10)=-3763.67, ε=0.740
+  Mean reward: -6.51, Time: 36.0s, Params: 16072
+Run 9/10 (seed=50)...
+Run with seed=50...
+[H1-Basic] Ep 10/50: Reward=-3621.71, Avg(10)=-3673.16, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-4034.84, Avg(10)=-3803.29, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-3647.21, Avg(10)=-3846.02, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-3780.54, Avg(10)=-3904.18, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-3809.36, Avg(10)=-3779.94, ε=0.740
+  Mean reward: -7.88, Time: 35.8s, Params: 16072
+Run 10/10 (seed=51)...
+Run with seed=51...
+[H1-Basic] Ep 10/50: Reward=-3750.00, Avg(10)=-3732.65, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-3924.11, Avg(10)=-3749.47, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-3471.98, Avg(10)=-3753.99, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-3625.93, Avg(10)=-3678.34, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-4021.55, Avg(10)=-3741.51, ε=0.740
+  Mean reward: -9.46, Time: 35.8s, Params: 16072
+
+======================================================================
+STATISTICAL ANALYSIS
+======================================================================
+
+experiment_1: H3-MultiAgent vs H1-Basic on low-variance
+  H3-MultiAgent: -6.67 ± 0.99
+  H1-Basic: -5.67 ± 1.44
+  t=-2.050, p=0.0706, d=-0.813 (large)
+  Result: No significant difference ⚠️
+
+  Efficiency Comparison:
+    H3-MultiAgent: 5,992 params, 31.3s training
+    H1-Basic: 16,072 params, 36.3s training
+    Param ratio: 0.37x, Time ratio: 0.86x
+
+experiment_2: H3-MultiAgent vs H1-Basic on high-variance
+  H3-MultiAgent: -7.25 ± 0.60
+  H1-Basic: -7.10 ± 1.54
+  t=-0.405, p=0.6946, d=-0.133 (small)
+  Result: No significant difference ⚠️
+
+  Efficiency Comparison:
+    H3-MultiAgent: 5,992 params, 32.3s training
+    H1-Basic: 16,072 params, 36.2s training
+    Param ratio: 0.37x, Time ratio: 0.89x
+
+✅ Results saved to /Users/varun/Documents/School/CS4644/project/traffic-light-agent/results/h3_results.json
+/Users/varun/Documents/School/CS4644/project/traffic-light-agent/experiments/run_h3.py:372: MatplotlibDeprecationWarning: The 'labels' parameter of boxplot() has been renamed 'tick_labels' since Matplotlib 3.9; support for the old name will be dropped in 3.11.
+  bp = axes[idx].boxplot(data, labels=labels, patch_artist=True)
+/Users/varun/Documents/School/CS4644/project/traffic-light-agent/experiments/run_h3.py:372: MatplotlibDeprecationWarning: The 'labels' parameter of boxplot() has been renamed 'tick_labels' since Matplotlib 3.9; support for the old name will be dropped in 3.11.
+  bp = axes[idx].boxplot(data, labels=labels, patch_artist=True)
+✅ Plots saved to /Users/varun/Documents/School/CS4644/project/traffic-light-agent/results/plots/h3_comparison.png
+
+======================================================================
+H3 EXPERIMENTS COMPLETE
+======================================================================

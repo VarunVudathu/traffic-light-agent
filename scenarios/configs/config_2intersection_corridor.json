@@ -1,0 +1,10 @@
+{
+  "interval": 1.0,
+  "seed": 42,
+  "dir": "/Users/varun/Documents/School/CS4644/project/traffic-light-agent/data/",
+  "roadnetFile": "roadnet_2intersection_corridor.json",
+  "flowFile": "../scenarios/configs/flow_2intersection_corridor.json",
+  "rlTrafficLight": true,
+  "laneChange": false,
+  "saveReplay": false
+}

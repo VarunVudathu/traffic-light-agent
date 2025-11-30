@@ -1,0 +1,512 @@
+======================================================================
+H2 HYPOTHESIS TESTING
+======================================================================
+
+======================================================================
+EXPERIMENT 1: H2-MaxPressure vs H1-Basic (Low Variance)
+Hypothesis: H2 should learn faster with better reward signal
+======================================================================
+
+Running: h2_maxpressure on low_variance
+======================================================================
+Run 1/10 (seed=42)...
+Run with seed=42...
+[H2-MaxPressure] Ep 10/50: Reward=-58059.00, Avg(10)=-64686.10, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-55604.00, Avg(10)=-56520.90, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-46222.00, Avg(10)=-44333.60, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-50588.00, Avg(10)=-45931.10, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-43446.00, Avg(10)=-44828.10, ε=0.740
+  Mean reward: -371.98
+Run 2/10 (seed=43)...
+Run with seed=43...
+[H2-MaxPressure] Ep 10/50: Reward=-69055.00, Avg(10)=-69999.70, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-54312.00, Avg(10)=-56825.80, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-74336.00, Avg(10)=-54340.40, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-73263.00, Avg(10)=-58583.40, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-54773.00, Avg(10)=-53542.40, ε=0.740
+  Mean reward: -421.80
+Run 3/10 (seed=44)...
+Run with seed=44...
+[H2-MaxPressure] Ep 10/50: Reward=-59194.00, Avg(10)=-65038.80, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-50119.00, Avg(10)=-61029.50, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-61260.00, Avg(10)=-58721.10, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-73435.00, Avg(10)=-58562.20, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-35373.00, Avg(10)=-47064.40, ε=0.740
+  Mean reward: -249.10
+Run 4/10 (seed=45)...
+Run with seed=45...
+[H2-MaxPressure] Ep 10/50: Reward=-74244.00, Avg(10)=-69659.60, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-43655.00, Avg(10)=-59584.10, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-63821.00, Avg(10)=-59679.60, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-50449.00, Avg(10)=-54774.00, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-57614.00, Avg(10)=-57741.60, ε=0.740
+  Mean reward: -338.36
+Run 5/10 (seed=46)...
+Run with seed=46...
+[H2-MaxPressure] Ep 10/50: Reward=-62867.00, Avg(10)=-67715.90, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-56946.00, Avg(10)=-61691.40, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-44887.00, Avg(10)=-55020.90, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-56374.00, Avg(10)=-53090.20, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-34566.00, Avg(10)=-49798.00, ε=0.740
+  Mean reward: -333.68
+Run 6/10 (seed=47)...
+Run with seed=47...
+[H2-MaxPressure] Ep 10/50: Reward=-63254.00, Avg(10)=-66832.70, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-46901.00, Avg(10)=-60527.50, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-55017.00, Avg(10)=-61310.40, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-61502.00, Avg(10)=-59238.20, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-55375.00, Avg(10)=-50913.50, ε=0.740
+  Mean reward: -358.12
+Run 7/10 (seed=48)...
+Run with seed=48...
+[H2-MaxPressure] Ep 10/50: Reward=-49298.00, Avg(10)=-63121.70, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-58535.00, Avg(10)=-62800.30, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-52778.00, Avg(10)=-56935.60, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-57805.00, Avg(10)=-57317.90, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-42585.00, Avg(10)=-52792.00, ε=0.740
+  Mean reward: -417.12
+Run 8/10 (seed=49)...
+Run with seed=49...
+[H2-MaxPressure] Ep 10/50: Reward=-56080.00, Avg(10)=-63435.80, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-58865.00, Avg(10)=-62286.90, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-60394.00, Avg(10)=-56505.40, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-55686.00, Avg(10)=-60498.90, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-62268.00, Avg(10)=-59053.20, ε=0.740
+  Mean reward: -412.65
+Run 9/10 (seed=50)...
+Run with seed=50...
+[H2-MaxPressure] Ep 10/50: Reward=-53281.00, Avg(10)=-60773.70, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-43730.00, Avg(10)=-51366.30, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-48801.00, Avg(10)=-54054.50, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-52118.00, Avg(10)=-52183.80, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-41378.00, Avg(10)=-51669.90, ε=0.740
+  Mean reward: -228.10
+Run 10/10 (seed=51)...
+Run with seed=51...
+[H2-MaxPressure] Ep 10/50: Reward=-60787.00, Avg(10)=-62909.10, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-43895.00, Avg(10)=-56851.80, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-55640.00, Avg(10)=-49260.30, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-68880.00, Avg(10)=-51125.70, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-39564.00, Avg(10)=-50476.60, ε=0.740
+  Mean reward: -228.19
+
+Running: h1_basic on low_variance
+======================================================================
+Run 1/10 (seed=42)...
+Run with seed=42...
+[H1-Basic] Ep 10/50: Reward=-1084.38, Avg(10)=-1233.24, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-913.77, Avg(10)=-1156.49, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-1518.73, Avg(10)=-1076.27, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-1297.29, Avg(10)=-975.71, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-1122.11, Avg(10)=-1095.03, ε=0.740
+  Mean reward: -5.82
+Run 2/10 (seed=43)...
+Run with seed=43...
+[H1-Basic] Ep 10/50: Reward=-1190.29, Avg(10)=-1287.69, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-2017.18, Avg(10)=-1352.07, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-1549.52, Avg(10)=-1655.13, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-1307.00, Avg(10)=-1476.29, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-1312.12, Avg(10)=-1442.38, ε=0.740
+  Mean reward: -7.47
+Run 3/10 (seed=44)...
+Run with seed=44...
+[H1-Basic] Ep 10/50: Reward=-1205.71, Avg(10)=-1207.74, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-1051.79, Avg(10)=-1135.15, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-1130.34, Avg(10)=-1116.20, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-1740.16, Avg(10)=-1261.09, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-1387.73, Avg(10)=-1012.84, ε=0.740
+  Mean reward: -6.51
+Run 4/10 (seed=45)...
+Run with seed=45...
+[H1-Basic] Ep 10/50: Reward=-1312.93, Avg(10)=-1198.30, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-1230.09, Avg(10)=-1121.55, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-1234.80, Avg(10)=-1149.18, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-1462.27, Avg(10)=-1268.84, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-956.57, Avg(10)=-1212.31, ε=0.740
+  Mean reward: -6.74
+Run 5/10 (seed=46)...
+Run with seed=46...
+[H1-Basic] Ep 10/50: Reward=-1084.43, Avg(10)=-1181.63, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-1015.50, Avg(10)=-1143.06, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-1061.91, Avg(10)=-1166.60, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-1215.30, Avg(10)=-1155.67, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-733.68, Avg(10)=-1028.64, ε=0.740
+  Mean reward: -7.26
+Run 6/10 (seed=47)...
+Run with seed=47...
+[H1-Basic] Ep 10/50: Reward=-1412.89, Avg(10)=-1182.67, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-929.59, Avg(10)=-1049.70, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-1120.43, Avg(10)=-1035.52, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-1155.52, Avg(10)=-1037.60, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-624.88, Avg(10)=-1083.92, ε=0.740
+  Mean reward: -5.59
+Run 7/10 (seed=48)...
+Run with seed=48...
+[H1-Basic] Ep 10/50: Reward=-1296.02, Avg(10)=-1289.66, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-1072.12, Avg(10)=-1086.25, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-1444.36, Avg(10)=-1078.95, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-1317.68, Avg(10)=-1102.72, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-877.68, Avg(10)=-922.05, ε=0.740
+  Mean reward: -7.44
+Run 8/10 (seed=49)...
+Run with seed=49...
+[H1-Basic] Ep 10/50: Reward=-866.52, Avg(10)=-1317.50, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-1421.12, Avg(10)=-1303.10, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-2031.23, Avg(10)=-1687.74, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-1479.46, Avg(10)=-1727.66, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-1457.80, Avg(10)=-1714.46, ε=0.740
+  Mean reward: -9.44
+Run 9/10 (seed=50)...
+Run with seed=50...
+[H1-Basic] Ep 10/50: Reward=-1209.27, Avg(10)=-1473.17, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-1620.79, Avg(10)=-1306.56, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-1182.27, Avg(10)=-1208.22, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-1397.11, Avg(10)=-1233.54, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-977.73, Avg(10)=-1123.79, ε=0.740
+  Mean reward: -5.76
+Run 10/10 (seed=51)...
+Run with seed=51...
+[H1-Basic] Ep 10/50: Reward=-931.09, Avg(10)=-1339.77, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-886.32, Avg(10)=-1150.73, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-1086.61, Avg(10)=-1359.65, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-1015.00, Avg(10)=-1384.18, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-1126.82, Avg(10)=-1194.85, ε=0.740
+  Mean reward: -6.39
+
+======================================================================
+EXPERIMENT 2: H2-MaxPressure vs MaxPressure-Baseline (Low Variance)
+Hypothesis: H2 should approach MaxPressure heuristic performance
+======================================================================
+
+Running: h2_maxpressure on low_variance
+======================================================================
+Run 1/10 (seed=42)...
+Run with seed=42...
+[H2-MaxPressure] Ep 10/50: Reward=-54772.00, Avg(10)=-63592.40, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-51214.00, Avg(10)=-57621.80, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-67100.00, Avg(10)=-58737.60, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-49703.00, Avg(10)=-51857.60, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-39618.00, Avg(10)=-48577.90, ε=0.740
+  Mean reward: -278.64
+Run 2/10 (seed=43)...
+Run with seed=43...
+[H2-MaxPressure] Ep 10/50: Reward=-68263.00, Avg(10)=-68564.70, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-60859.00, Avg(10)=-60570.60, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-50632.00, Avg(10)=-61408.10, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-62983.00, Avg(10)=-57051.80, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-53936.00, Avg(10)=-56914.60, ε=0.740
+  Mean reward: -260.91
+Run 3/10 (seed=44)...
+Run with seed=44...
+[H2-MaxPressure] Ep 10/50: Reward=-60877.00, Avg(10)=-66897.00, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-41086.00, Avg(10)=-51587.60, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-55749.00, Avg(10)=-52248.90, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-53141.00, Avg(10)=-46267.60, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-54905.00, Avg(10)=-60601.80, ε=0.740
+  Mean reward: -254.35
+Run 4/10 (seed=45)...
+Run with seed=45...
+[H2-MaxPressure] Ep 10/50: Reward=-78608.00, Avg(10)=-68793.10, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-49422.00, Avg(10)=-54114.50, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-64318.00, Avg(10)=-56675.90, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-56313.00, Avg(10)=-44974.30, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-68991.00, Avg(10)=-47214.30, ε=0.740
+  Mean reward: -379.61
+Run 5/10 (seed=46)...
+Run with seed=46...
+[H2-MaxPressure] Ep 10/50: Reward=-66116.00, Avg(10)=-62523.40, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-46133.00, Avg(10)=-58172.70, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-51251.00, Avg(10)=-55185.90, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-47677.00, Avg(10)=-49126.10, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-45478.00, Avg(10)=-51912.30, ε=0.740
+  Mean reward: -409.14
+Run 6/10 (seed=47)...
+Run with seed=47...
+[H2-MaxPressure] Ep 10/50: Reward=-63646.00, Avg(10)=-68038.40, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-70052.00, Avg(10)=-62632.70, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-56282.00, Avg(10)=-56550.70, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-54274.00, Avg(10)=-57293.70, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-64686.00, Avg(10)=-52264.60, ε=0.740
+  Mean reward: -421.20
+Run 7/10 (seed=48)...
+Run with seed=48...
+[H2-MaxPressure] Ep 10/50: Reward=-66778.00, Avg(10)=-64577.50, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-51976.00, Avg(10)=-63195.90, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-51088.00, Avg(10)=-54345.30, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-58630.00, Avg(10)=-48270.70, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-46522.00, Avg(10)=-48357.70, ε=0.740
+  Mean reward: -340.81
+Run 8/10 (seed=49)...
+Run with seed=49...
+[H2-MaxPressure] Ep 10/50: Reward=-75049.00, Avg(10)=-67907.90, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-57397.00, Avg(10)=-58479.10, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-57620.00, Avg(10)=-55432.90, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-63571.00, Avg(10)=-58286.90, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-65393.00, Avg(10)=-63617.70, ε=0.740
+  Mean reward: -426.40
+Run 9/10 (seed=50)...
+Run with seed=50...
+[H2-MaxPressure] Ep 10/50: Reward=-60816.00, Avg(10)=-66409.70, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-43371.00, Avg(10)=-55499.00, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-56096.00, Avg(10)=-54272.90, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-52123.00, Avg(10)=-47659.60, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-45255.00, Avg(10)=-47499.80, ε=0.740
+  Mean reward: -339.82
+Run 10/10 (seed=51)...
+Run with seed=51...
+[H2-MaxPressure] Ep 10/50: Reward=-59650.00, Avg(10)=-61898.00, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-57898.00, Avg(10)=-53307.80, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-52751.00, Avg(10)=-55599.80, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-55270.00, Avg(10)=-50568.90, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-66100.00, Avg(10)=-49753.20, ε=0.740
+  Mean reward: -306.28
+
+Running: maxpressure_baseline on low_variance
+======================================================================
+Run 1/10 (seed=42)...
+Run with seed=42...
+  Mean reward: -320.34
+Run 2/10 (seed=43)...
+Run with seed=43...
+  Mean reward: -320.34
+Run 3/10 (seed=44)...
+Run with seed=44...
+  Mean reward: -320.34
+Run 4/10 (seed=45)...
+Run with seed=45...
+  Mean reward: -320.34
+Run 5/10 (seed=46)...
+Run with seed=46...
+  Mean reward: -320.34
+Run 6/10 (seed=47)...
+Run with seed=47...
+  Mean reward: -320.34
+Run 7/10 (seed=48)...
+Run with seed=48...
+  Mean reward: -320.34
+Run 8/10 (seed=49)...
+Run with seed=49...
+  Mean reward: -320.34
+Run 9/10 (seed=50)...
+Run with seed=50...
+  Mean reward: -320.34
+Run 10/10 (seed=51)...
+Run with seed=51...
+  Mean reward: -320.34
+
+======================================================================
+EXPERIMENT 3: H2-MaxPressure vs H1-Basic (High Variance)
+Hypothesis: H2 should handle high-variance better
+======================================================================
+
+Running: h2_maxpressure on high_variance
+======================================================================
+Run 1/10 (seed=42)...
+Run with seed=42...
+[H2-MaxPressure] Ep 10/50: Reward=-217270.00, Avg(10)=-213511.70, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-219290.00, Avg(10)=-218950.60, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-232731.00, Avg(10)=-229898.90, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-227814.00, Avg(10)=-221589.80, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-221118.00, Avg(10)=-224509.80, ε=0.740
+  Mean reward: -469.37
+Run 2/10 (seed=43)...
+Run with seed=43...
+[H2-MaxPressure] Ep 10/50: Reward=-218494.00, Avg(10)=-213817.90, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-213299.00, Avg(10)=-212848.10, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-209789.00, Avg(10)=-216117.20, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-210948.00, Avg(10)=-218469.70, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-222313.00, Avg(10)=-226685.20, ε=0.740
+  Mean reward: -444.32
+Run 3/10 (seed=44)...
+Run with seed=44...
+[H2-MaxPressure] Ep 10/50: Reward=-228592.00, Avg(10)=-219063.00, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-207559.00, Avg(10)=-220347.90, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-225948.00, Avg(10)=-218255.80, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-228708.00, Avg(10)=-222157.50, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-239428.00, Avg(10)=-226527.30, ε=0.740
+  Mean reward: -414.70
+Run 4/10 (seed=45)...
+Run with seed=45...
+[H2-MaxPressure] Ep 10/50: Reward=-217458.00, Avg(10)=-217036.60, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-229370.00, Avg(10)=-217195.10, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-211393.00, Avg(10)=-216225.50, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-214593.00, Avg(10)=-218336.80, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-213546.00, Avg(10)=-219040.20, ε=0.740
+  Mean reward: -397.52
+Run 5/10 (seed=46)...
+Run with seed=46...
+[H2-MaxPressure] Ep 10/50: Reward=-192012.00, Avg(10)=-210047.30, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-208557.00, Avg(10)=-210401.20, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-223524.00, Avg(10)=-218158.00, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-212902.00, Avg(10)=-212157.60, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-214443.00, Avg(10)=-218044.70, ε=0.740
+  Mean reward: -397.52
+Run 6/10 (seed=47)...
+Run with seed=47...
+[H2-MaxPressure] Ep 10/50: Reward=-211805.00, Avg(10)=-210055.20, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-216144.00, Avg(10)=-212035.70, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-205904.00, Avg(10)=-214249.00, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-227870.00, Avg(10)=-212892.70, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-210642.00, Avg(10)=-219525.20, ε=0.740
+  Mean reward: -397.52
+Run 7/10 (seed=48)...
+Run with seed=48...
+[H2-MaxPressure] Ep 10/50: Reward=-203984.00, Avg(10)=-206591.60, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-217522.00, Avg(10)=-210757.00, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-213159.00, Avg(10)=-219281.40, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-223207.00, Avg(10)=-215940.90, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-198826.00, Avg(10)=-216429.90, ε=0.740
+  Mean reward: -437.17
+Run 8/10 (seed=49)...
+Run with seed=49...
+[H2-MaxPressure] Ep 10/50: Reward=-217049.00, Avg(10)=-210943.50, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-232833.00, Avg(10)=-217766.40, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-222310.00, Avg(10)=-212910.90, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-225914.00, Avg(10)=-224250.30, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-238306.00, Avg(10)=-220597.60, ε=0.740
+  Mean reward: -397.52
+Run 9/10 (seed=50)...
+Run with seed=50...
+[H2-MaxPressure] Ep 10/50: Reward=-222315.00, Avg(10)=-214595.10, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-222847.00, Avg(10)=-218936.80, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-227385.00, Avg(10)=-216191.30, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-248843.00, Avg(10)=-223389.00, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-221935.00, Avg(10)=-222289.50, ε=0.740
+  Mean reward: -414.70
+Run 10/10 (seed=51)...
+Run with seed=51...
+[H2-MaxPressure] Ep 10/50: Reward=-213773.00, Avg(10)=-209809.40, ε=0.905
+[H2-MaxPressure] Ep 20/50: Reward=-225369.00, Avg(10)=-216276.90, ε=0.860
+[H2-MaxPressure] Ep 30/50: Reward=-220852.00, Avg(10)=-211816.10, ε=0.818
+[H2-MaxPressure] Ep 40/50: Reward=-216763.00, Avg(10)=-217332.20, ε=0.778
+[H2-MaxPressure] Ep 50/50: Reward=-225882.00, Avg(10)=-217746.30, ε=0.740
+  Mean reward: -567.03
+
+Running: h1_basic on high_variance
+======================================================================
+Run 1/10 (seed=42)...
+Run with seed=42...
+[H1-Basic] Ep 10/50: Reward=-4095.09, Avg(10)=-3769.69, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-3826.77, Avg(10)=-3772.36, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-4211.87, Avg(10)=-3770.60, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-3927.21, Avg(10)=-3803.05, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-3564.45, Avg(10)=-3870.24, ε=0.740
+  Mean reward: -7.95
+Run 2/10 (seed=43)...
+Run with seed=43...
+[H1-Basic] Ep 10/50: Reward=-3815.91, Avg(10)=-3726.32, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-3626.55, Avg(10)=-3850.13, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-3551.82, Avg(10)=-3738.57, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-4082.29, Avg(10)=-3874.70, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-4033.89, Avg(10)=-3814.74, ε=0.740
+  Mean reward: -6.62
+Run 3/10 (seed=44)...
+Run with seed=44...
+[H1-Basic] Ep 10/50: Reward=-3640.41, Avg(10)=-3721.52, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-3761.07, Avg(10)=-3816.20, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-3802.70, Avg(10)=-3802.25, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-3601.95, Avg(10)=-3744.85, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-3743.54, Avg(10)=-3848.07, ε=0.740
+  Mean reward: -7.79
+Run 4/10 (seed=45)...
+Run with seed=45...
+[H1-Basic] Ep 10/50: Reward=-3676.86, Avg(10)=-3765.01, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-3964.30, Avg(10)=-3766.12, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-3749.88, Avg(10)=-3766.07, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-3685.25, Avg(10)=-3710.91, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-3883.68, Avg(10)=-3742.32, ε=0.740
+  Mean reward: -8.11
+Run 5/10 (seed=46)...
+Run with seed=46...
+[H1-Basic] Ep 10/50: Reward=-3870.88, Avg(10)=-3738.91, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-3661.34, Avg(10)=-3715.99, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-3992.68, Avg(10)=-3878.04, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-3907.75, Avg(10)=-3828.07, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-3719.73, Avg(10)=-3899.17, ε=0.740
+  Mean reward: -6.88
+Run 6/10 (seed=47)...
+Run with seed=47...
+[H1-Basic] Ep 10/50: Reward=-3722.86, Avg(10)=-3755.64, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-3462.91, Avg(10)=-3704.14, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-3722.07, Avg(10)=-3767.44, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-3973.75, Avg(10)=-3702.79, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-3644.63, Avg(10)=-3759.02, ε=0.740
+  Mean reward: -5.71
+Run 7/10 (seed=48)...
+Run with seed=48...
+[H1-Basic] Ep 10/50: Reward=-3767.96, Avg(10)=-3698.06, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-3794.95, Avg(10)=-3753.13, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-3919.34, Avg(10)=-3785.87, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-4201.61, Avg(10)=-3813.14, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-3805.84, Avg(10)=-3861.59, ε=0.740
+  Mean reward: -7.91
+Run 8/10 (seed=49)...
+Run with seed=49...
+[H1-Basic] Ep 10/50: Reward=-3791.66, Avg(10)=-3749.51, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-3671.55, Avg(10)=-3766.78, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-4017.13, Avg(10)=-3763.68, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-3662.00, Avg(10)=-3777.65, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-3890.75, Avg(10)=-3777.06, ε=0.740
+  Mean reward: -7.35
+Run 9/10 (seed=50)...
+Run with seed=50...
+[H1-Basic] Ep 10/50: Reward=-4017.59, Avg(10)=-3774.14, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-3600.48, Avg(10)=-3791.71, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-3946.02, Avg(10)=-3821.09, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-4054.46, Avg(10)=-3869.84, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-3889.86, Avg(10)=-3842.04, ε=0.740
+  Mean reward: -9.33
+Run 10/10 (seed=51)...
+Run with seed=51...
+[H1-Basic] Ep 10/50: Reward=-3713.64, Avg(10)=-3768.99, ε=0.905
+[H1-Basic] Ep 20/50: Reward=-3813.00, Avg(10)=-3825.92, ε=0.860
+[H1-Basic] Ep 30/50: Reward=-4035.13, Avg(10)=-3851.73, ε=0.818
+[H1-Basic] Ep 40/50: Reward=-3776.54, Avg(10)=-3765.55, ε=0.778
+[H1-Basic] Ep 50/50: Reward=-3940.57, Avg(10)=-3800.33, ε=0.740
+  Mean reward: -7.88
+
+======================================================================
+STATISTICAL ANALYSIS
+======================================================================
+
+experiment_1: H2-MaxPressure vs H1-Basic on low-variance
+  H2-MaxPressure: -335.91 ± 72.41
+  H1-Basic: -6.84 ± 1.08
+  t=-13.745, p=0.0000, d=-6.426 (large)
+  Result: H1-Basic ✅
+
+experiment_2: H2-MaxPressure vs MaxPressure-Baseline on low-variance
+  H2-MaxPressure: -341.72 ± 62.35
+  MaxPressure-Baseline: -320.34 ± 0.00
+  t=-1.028, p=0.3306, d=-0.485 (small)
+  Result: No significant difference ⚠️
+
+experiment_3: H2-MaxPressure vs H1-Basic on high-variance
+  H2-MaxPressure: -433.74 ± 50.13
+  H1-Basic: -7.55 ± 0.93
+  t=-25.590, p=0.0000, d=-12.020 (large)
+  Result: H1-Basic ✅
+Traceback (most recent call last):
+  File "/Users/varun/Documents/School/CS4644/project/traffic-light-agent/experiments/run_h2.py", line 410, in <module>
+    main()
+    ~~~~^^
+  File "/Users/varun/Documents/School/CS4644/project/traffic-light-agent/experiments/run_h2.py", line 372, in main
+    json.dump(results_summary, f, indent=2)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+                 ^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/json/encoder.py", line 433, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/opt/anaconda3/lib/python3.13/json/encoder.py", line 407, in _iterencode_dict
+    yield from chunks
+  File "/opt/anaconda3/lib/python3.13/json/encoder.py", line 407, in _iterencode_dict
+    yield from chunks
+  File "/opt/anaconda3/lib/python3.13/json/encoder.py", line 407, in _iterencode_dict
+    yield from chunks
+  File "/opt/anaconda3/lib/python3.13/json/encoder.py", line 440, in _iterencode
+    o = _default(o)
+  File "/opt/anaconda3/lib/python3.13/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type bool is not JSON serializable
